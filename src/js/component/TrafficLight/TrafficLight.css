@@ -6,7 +6,7 @@
 }
 
 .lightBody{
-    height: 180px;
+    /* height: 180px; */
     width: 56px;
     margin: auto;
     text-align: center;
@@ -22,4 +22,9 @@
 
 .glow{
     box-shadow: 0px 0px 19px 8px #f0f1f7;
+}
+
+.purple{
+    background-color: #6f42c1;
+    /* display: none; */
 }
