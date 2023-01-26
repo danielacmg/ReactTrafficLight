@@ -40,13 +40,13 @@ const TrafficLight = () => {
         if(hidden){
             setPurpleLight("circle purple");
             setHidden(false); 
-            // setLights (lights => ([...lights,"purple"]));
+            // setLights (lights => ([...lights,"purple"])); //to add purple light to cycling array
             console.log(lights);
 
         }else{
             setHidden(true);
             setPurpleLight("circle purple d-none");  
-            // setLights (lights.slice(0, lights.length - 1));
+            // setLights (lights.slice(0, lights.length - 1));  //to romeve purple light from cycling array
             console.log(lights);
         }
     };
